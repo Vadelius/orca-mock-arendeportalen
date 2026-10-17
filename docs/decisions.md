@@ -17,3 +17,7 @@ Until sign-in exists, a draft is kept in the resident's own browser (localStorag
 ## 2026-10-17 · Drafts are kept for 30 days in the browser
 
 A new case can be saved as a draft and is restored when the resident comes back to the form on the same device. Drafts are removed after 30 days. Moving drafts across devices waits for server storage (one-time resume link).
+
+## 2026-10-17 · Drafts are kept for 7 days, not 30
+
+Browser storage on shared and library computers made 30 days too long: another person could open a stranger's half-filled case. Drafts are now removed after 7 days.
