@@ -13,3 +13,7 @@ Case numbers are the year plus a four-digit sequence, prefixed MOCK in this mock
 ## 2026-10-10 · Drafts live in the browser for now
 
 Until sign-in exists, a draft is kept in the resident's own browser (localStorage), not on the server.
+
+## 2026-10-17 · Drafts are kept for 30 days in the browser
+
+A new case can be saved as a draft and is restored when the resident comes back to the form on the same device. Drafts are removed after 30 days. Moving drafts across devices waits for server storage (one-time resume link).
