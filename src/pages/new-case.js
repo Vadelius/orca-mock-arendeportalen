@@ -23,7 +23,7 @@ export function bindNewCase(root) {
   root.querySelector("#save-draft")?.addEventListener("click", () => {
     const fields = Object.fromEntries([...new FormData(form)].filter(([name]) => name !== "attachment"));
     saveDraft(fields);
-    root.querySelector("#draft-status").textContent = "Draft saved. It's kept for 30 days.";
+    root.querySelector("#draft-status").textContent = "Draft saved. It's kept for 7 days.";
   });
   form?.addEventListener("submit", (event) => {
     event.preventDefault();
