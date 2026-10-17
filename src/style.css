@@ -1,0 +1,17 @@
+:root { color-scheme: light dark; --ink: #1d232b; --bg: #f6f7f9; --panel: #fff; --line: #d6dbe1; --accent: #1f5fbf; font-family: system-ui, sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --ink: #e8ecf0; --bg: #14181d; --panel: #1d2329; --line: #333c45; --accent: #79a8ff; } }
+body { margin: 0; background: var(--bg); color: var(--ink); }
+.mock-banner { background: #ffe9a8; color: #3a2d00; padding: 6px 16px; font-size: 14px; }
+.top { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid var(--line); background: var(--panel); }
+.brand { font-weight: 700; color: var(--ink); text-decoration: none; }
+.tag { font-size: 12px; border: 1px solid var(--line); border-radius: 4px; padding: 1px 4px; font-weight: 400; }
+nav a { margin-right: 12px; color: var(--accent); }
+main { max-width: 860px; margin: 0 auto; padding: 16px; }
+table { width: 100%; border-collapse: collapse; background: var(--panel); }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid var(--line); }
+form { display: grid; gap: 12px; background: var(--panel); padding: 16px; border: 1px solid var(--line); border-radius: 6px; }
+label { display: grid; gap: 4px; font-weight: 600; }
+input, select, textarea { font: inherit; padding: 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--ink); }
+button { font: inherit; padding: 8px 14px; border-radius: 4px; border: 0; background: var(--accent); color: #fff; cursor: pointer; justify-self: start; }
+.status { font-size: 13px; border-radius: 10px; padding: 2px 8px; border: 1px solid var(--line); }
+.notice { padding: 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); }

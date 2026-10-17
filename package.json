@@ -1,0 +1,17 @@
+{
+  "name": "orca-mock-arendeportalen",
+  "private": true,
+  "version": "0.1.0",
+  "description": "MOCK product for dogfooding Orca. Not a real service.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "brief": "node scripts/make-brief.mjs"
+  },
+  "devDependencies": {
+    "vite": "7.1.9",
+    "fflate": "0.8.2"
+  }
+}
